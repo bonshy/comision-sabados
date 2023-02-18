@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@300&family=Oswald:wght@200;600&display=swap');
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-color: rgb(71, 71, 184);
+}
+/*generales a todas las paginas*/
+.titulo{
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    margin:10px 25px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(184, 183, 183);
+    font-weight: lighter;
+    margin: 20px 30px 5px 30px;
+}
+
+header{
+    border: 2px whitesmoke solid;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.publicidad{
+    color:rgb(180, 180, 180);
+    font-weight: 450px;
+    margin:25px 50px;
+    border: 2px rgb(156, 156, 156) solid;
+    text-align: center;
+}
+
+h2{
+    color:rgb(180, 180, 180);
+    font-weight: 450px;
+    margin:20px 50px;
+    border: 2px rgb(156, 156, 156) solid;
+    text-align: center;
+}
+h4 {
+    margin: 5px 50px 15px;
+    color:antiquewhite;
+    text-align: center;
+}
+p {
+    margin: 5px 50px;
+    color:antiquewhite;
+    border: 3px whitesmoke solid;
+}
+iframe{
+    margin: 20px 350px;
+}
+
+h3 {
+    color:rgb(184, 183, 183);
+    text-align:center;
+}
+
+.piePagina{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px whitesmoke solid;
+    margin-top:300px;
+}
+/*tienda*/
+.contenedorComidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 300px;
+}
+.contenedorComidas img{
+    width:200px;
+    height: 200px;
+    border: 10px 5px grey solid;
+    margin:auto;
+}
+/*blog*/
+.contenedorClientes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja1{
+        width: 400px;
+        height: 300px;
+        border: lightgray;
+}
+.caja2{
+    width: 400px;
+    height: 300px;
+    border: lightgray;
+}
+.caja3 {
+    width: 400px;
+    height: 300px;
+    border: lightgray;
+}
+/*contacto*/
+.special{
+    border:none;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    color:antiquewhite;
+}
